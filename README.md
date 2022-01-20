@@ -5,7 +5,7 @@
 
 <h2>Clone the repository</h2>
 <p>
-`https://github.com/KingAzizz/food-recipes-project.git`
+` https://github.com/KingAzizz/food-recipes-project.git `
 </p>
 <br>
 .then 
