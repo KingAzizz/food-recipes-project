@@ -27,6 +27,6 @@ npm start
 <h3>if you have any questions please feel free to contact me</h3> 
 <a href="https://twitter.com/xilAziz"> <img src ="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" width="60px"></a>
 
-<a maillto="azizalsunaydi@gmail.com"> <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpwKLfbjkVlQn9Mk6a6Lu0bU0gB-UvCKnjeg&usqp=CAU" width="60px"></a>
+<a maillto="azizalsunaydi@gmail.com"> <img src ="https://www.freeiconspng.com/uploads/file-tk-email-icon-svg-28.png" width="350" alt="File:TK email icon.svg" width="60px"></a>
 
 
