@@ -14,7 +14,7 @@ https://github.com/KingAzizz/food-recipes-project.git
 npm install
 ```
 
-<h2>Create .env file and add your api key or just put it in the server.js instead of process.env.RAPID_KEY</h2>
+<h2>Create .env file and add your api key or just put it in the server.js instead of <strong> process.env.RAPID_KEY </strong></h2>
 <br>
 .then
 
