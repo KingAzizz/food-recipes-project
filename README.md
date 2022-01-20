@@ -1,4 +1,4 @@
-<h1>This was build using rapid api</h1>
+<h1>This was build using React and rapid api</h1>
 
 
 <h2>How To Use</h2>
