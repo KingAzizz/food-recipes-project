@@ -13,3 +13,15 @@ https://github.com/KingAzizz/food-recipes-project.git
 ```
 npm install
 ```
+
+<h2>Create .env file and add your api key or just put it in the server.js</h2>
+<br>
+.then
+
+```
+npm start
+```
+<p>Enjoy🥳</p>
+
+
+<h3>if you have any questions please feel free to contact me</h3>
