@@ -25,4 +25,4 @@ npm start
 
 
 <h3>if you have any questions please feel free to contact me</h3> 
-<a href="https://twitter.com/xilAziz"> <img src ="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"></a>
+<a href="https://twitter.com/xilAziz"> <img src ="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" width="300px"></a>
