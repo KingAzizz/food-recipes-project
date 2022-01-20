@@ -1,0 +1,80 @@
+
+h2{ 
+    /* l maked the h2 clickable to trigger the show true and false so l made the cursor
+    pointer and l align it center of the container give it some margin for spaceing and leter space between each letter
+    
+    */
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    letter-spacing: 1px;
+  }
+  h2::first-letter{
+      /* first letter of every h2 will be cornflowerblue */
+   color: cornflowerblue;
+  }
+  .order-list{
+      /* set the orderlist to display none  untill its trigger the other class order-list-reveal by changing the state in react*/
+    display: none;
+  }
+  .order-list-reveal{
+    /*change the state in react to make it display block to show after its been clicked*/
+
+    display: block;
+  }
+  
+  .card-container{
+      /* width of 50% of its size to make responsive and center it without display flex and box shadow for more card feel */
+    width: 50%;
+    letter-spacing: 1px;
+    margin-top:40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .img-conatiner{
+      /* the img position relative to other element  */
+    position: relative;
+  }
+  
+  li{ 
+      /* l put 2 borders right and bottom for more organized look and font size of 1.3rem and margin 49px */
+    border-right: 3px solid cornflowerblue;
+    border-bottom: 3px solid cornflowerblue;
+    font-size: 1.3rem;
+    margin: 49px;
+  }
+  li::first-letter{
+      /* first letter of every li will be green (temporary) */
+    color: green;
+  }
+  
+  
+  .img-photo{
+      /* every photo have 100% of there container height and height of 400px width in normal computer screen and transition of 0.5 for smother animation */
+    width: 400px;
+    height: 100%;
+    border: 1px gray double;
+    transition: 0.5s; 
+    
+  }
+
+  .img-photo-hide{
+      /* same as the order-list hide the images untill the user clicked */
+    width: 100%;
+    height: 100%;
+    border: 1px gray double;
+    transition:1s; 
+    position:absolute;
+  }
+  /* mobile screens */
+  @media (max-width:803px) {
+    
+    
+    .img-conatiner{
+      width: 100%;
+    }
+    .img-photo{
+      
+       width: 100%;
+    height: auto;
+    }
+  }
