@@ -1,7 +1,7 @@
 <h1>This was build using React and rapid api</h1>
 
 
-<h2>How To Use</h2>
+<h3>How To Use</h3>
 
 <h2>Clone the repository</h2>
 <p>
