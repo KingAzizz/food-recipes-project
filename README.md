@@ -1,32 +1,90 @@
-<h1>This was build using React and rapid api</h1>
+![](https://img.shields.io/badge/Status-unfinished%20project-red?style=for-the-badge&logo=)
+
+# Built With 
+<ul>
+<li>HTML/CSS</li>
+<li>Reactjs</li>
+<li>Axios</li>
+<li>Nodejs</li>
+<li>Express</li>
+<li>Rapid API</li>
+</ul>
 
 
-<h3>How To Use</h3>
+# How To Use 
 
-<h2>Clone the repository</h2>
-<p>
+
+### Clone the repository  
+
   <code>
  https://github.com/KingAzizz/food-recipes-project.git
   </code>
-</p>
-<br>
-.then 
 
-```
+<br>
+
+
+.then
+```bash
 npm install
 ```
-
-<h2>Create .env file and add your api key or just put it in the server.js instead of <strong> process.env.RAPID_KEY </strong></h2>
+---
+## Create .env file and add your api key or just put it in the server.js instead of <strong> process.env.RAPID_KEY </strong>
 <br>
 .then
 
-```
+```bash
 npm start
 ```
-<p>Enjoy🥳</p>
+Enjoy🥳
+---
+# routes documentation
+```javascript
+app.get('/list',(req,res) => {
 
+const  options  = {
 
-<h3>if you have any questions please feel free to contact me</h3> 
+method: "GET",
+
+url: "https://yummly2.p.rapidapi.com/feeds/list",
+
+params: { limit: "18", start: "0", tag: "list.recipe.popular" },
+
+headers: {
+
+"x-rapidapi-host": "yummly2.p.rapidapi.com",
+
+"x-rapidapi-key": process.env.RAPID_KEY,
+
+},
+
+};
+
+axios
+
+.request(options)
+
+.then((response) => {
+
+const  result  =  response.data.feed
+
+res.json(result)
+
+})
+
+.catch((error) => {
+
+console.error(error);
+
+});
+
+})
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+---
+### if you have any questions please feel free to contact me 
 <p style="display:flex; justify-content:center;">
 <a href="https://twitter.com/xilAziz"> <img src ="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" width="60px"></a>
 <a href="mailto:azizalsunaydi@gmail.com"> <img src ="https://www.freeiconspng.com/uploads/file-tk-email-icon-svg-28.png" width="60px"></a>
