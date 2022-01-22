@@ -4,7 +4,7 @@ import "../styles/Recipes.css";
 const Recipes = ({ displayName, ingSteps, img }) => {
   const [show, setShow] = useState(false);
   return (<>
-  {ingSteps === undefined? <h2>Sorry we couldn't find anything related to your search</h2> :<section className="card-container">
+  {ingSteps === undefined? <h2>Sorry We Couldn't Find What You Are Looking for</h2> :<section className="card-container">
     <h2 onClick={() => setShow(!show)}>{displayName}</h2>
     <div className="img-conatiner">
       {img === "" ? (
