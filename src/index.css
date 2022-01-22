@@ -19,5 +19,25 @@ body {
   margin: 0px;
 }
 
+.alert{
+  width: 100%;
+  background-color: cornflowerblue;
+  text-align: center;
+  height: 4rem;
+}
+.alert-btn{
+  float: right;
+ font-size: 3rem;
+ margin:4px 20px 0 0;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+.alert-btn:hover{
+  color: white;
+  transition: .5s;
+ 
+}
 
 
