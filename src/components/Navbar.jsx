@@ -11,7 +11,7 @@ const Navbar = () => {
            <LeftContainer>
                <NavbarLinkContainer>
                 <NavbarLink to="/">Home</NavbarLink>
-                <NavbarLink to="/search">search</NavbarLink>
+                <NavbarLink to="/search">Search</NavbarLink>
                 <NavbarLink to="/test">test</NavbarLink>
                 <NavbarLink to="/test">Contact Us</NavbarLink>
                 <NavbarLink to="/test">test</NavbarLink>
@@ -28,10 +28,10 @@ const Navbar = () => {
            {extendNavbar &&(
                <ExtendedContainer>
            <NavbarLinkExtended to="/">Home</NavbarLinkExtended>
-                <NavbarLinkExtended to="/flight">Flight</NavbarLinkExtended>
-                <NavbarLinkExtended to="/about">About</NavbarLinkExtended>
-                <NavbarLinkExtended to="/contact">Contact Us</NavbarLinkExtended>
-                <NavbarLinkExtended to="/fork">Fork</NavbarLinkExtended>
+                <NavbarLinkExtended to="/search">Search</NavbarLinkExtended>
+                <NavbarLinkExtended to="/test">About</NavbarLinkExtended>
+                <NavbarLinkExtended to="/test">Contact Us</NavbarLinkExtended>
+                <NavbarLinkExtended to="/test">Fork</NavbarLinkExtended>
            </ExtendedContainer>
            )}
        </NavbarContainer>
