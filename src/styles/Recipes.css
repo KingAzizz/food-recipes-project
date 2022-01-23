@@ -35,14 +35,14 @@ h2{
     position: relative;
   }
   
-  li{ 
+  .li-recipe{ 
       /* l put 2 borders right and bottom for more organized look and font size of 1.3rem and margin 49px */
     border-right: 3px solid cornflowerblue;
     border-bottom: 3px solid cornflowerblue;
     font-size: 1.3rem;
     margin: 49px;
   }
-  li::first-letter{
+ .li-recipe::first-letter{
       /* first letter of every li will be green (temporary) */
     color: green;
   }
