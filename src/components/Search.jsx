@@ -42,7 +42,7 @@ const Search = () => {
        <div className="input-group">
 				<label className="input-underlined">
 				  <input required onChange={(e) => setSearchText(e.target.value)} />
-				  <span className="input-label">Normal</span>
+				  <span className="input-label">Search</span>
                   <button type="submit">
                 <i className="fas fa-search"></i>
                 </button>

@@ -21,7 +21,7 @@ const Recipes = ({ displayName, ingSteps, img }) => {
     
     <ol className={`${show ? "order-list-reveal" : "order-list"}`}>
       {ingSteps.map((array, index) => (
-        <li key={index}>{array}</li>
+        <li className="li-recipe" key={index}>{array}</li>
       ))}
     </ol>
     
